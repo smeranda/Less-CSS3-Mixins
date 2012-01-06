@@ -1,4 +1,4 @@
-/*Border Radius Functions*/
+// Border Radius Functions
 .border-radius(@radius: 10px)
 {
 	.border-radius(@radius, @radius);
@@ -16,7 +16,7 @@
 	border-radius: @arguments;
 }
 
-/*Shadows*/
+// Shadows
 .box-shadow(@shadow_x:3px, @shadow_y:3px, @shadow_rad:3px, @shadow_color:#888)
 {
 	box-shadow: @arguments;
@@ -29,12 +29,14 @@
 	text-shadow:@inset @inset @blur @shadow_color;
 }
 
+//opacity
 .opacity(@op:100)
 {
 	filter: ~"alpha(opacity=@op)";
 	opacity: @op/100;
 }
 
+// Gradients
 .linear-gradient(@from:#000, @to:#EEE)
 {
 	background: @from; /* Old browsers */
@@ -48,7 +50,7 @@
 	background: linear-gradient(top, @from, @to); /* W3C */
 }
 
-/* Box Flex */
+// Box Flex
 .box-flex-display()
 {
     display: -webkit-box;
@@ -62,6 +64,7 @@
     box-flex: @flex;
 }
 
+//transitions
 .transition(@range: all, @time: 1s, @ease: ease-in-out)
 {
 	-moz-transition: @arguments;
@@ -70,7 +73,7 @@
 	transition: @arguments;
 }
 
-/*Transformations*/
+// Transformations
 .skew(@angle_x:35, @angle_y:0)
 {
 	-webkit-transform: skew(formatstring("{0}deg", @angle_x), formatstring("{0}deg", @angle_y));
