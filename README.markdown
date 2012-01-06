@@ -1,7 +1,7 @@
 LESS CSS Starters
 =================
 
-[LESS CSS](http://lessxss.org/) is a very flexible and simple to use extension for CSS which allows for variables, mixins, operations and functions.
+[LESS CSS](http://lesscss.org/) is a very flexible and simple to use extension for CSS which allows for variables, mixins, operations and functions.
 
 This is a collection of various LESS rules for getting started on web layouts.
 
