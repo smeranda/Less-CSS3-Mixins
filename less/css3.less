@@ -54,6 +54,16 @@
 	background: linear-gradient(top, @from, @to); /* W3C */
 }
 
+/* Box Flex */
+.box-flex-display()
+{
+    display: -webkit-box;
+    display: box;
+.box-flex(@flex:1)
+    -webkit-box-flex: @flex;
+    -moz-box-flex: @flex;
+}
+
 .transition(@range: all, @time: 1s, @ease: ease-in-out)
 {
 	-moz-transition: @arguments;
