@@ -58,10 +58,14 @@
 .box-flex-display()
 {
     display: -webkit-box;
+    display: -moz-box;
     display: box;
+}
 .box-flex(@flex:1)
+{
     -webkit-box-flex: @flex;
     -moz-box-flex: @flex;
+    box-flex: @flex;
 }
 
 .transition(@range: all, @time: 1s, @ease: ease-in-out)
