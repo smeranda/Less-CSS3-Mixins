@@ -91,13 +91,13 @@
 	transform: scale(@scale_x);
 }
 
-.rotate(@angle:35)
+.rotate(@angle:35deg)
 {
-	-webkit-transform: rotate(formatstring("{0}deg", @deg));
-	-moz-transform: rotate(formatstring("{0}deg", @deg));
-	-o-transform: rotate(formatstring("{0}deg", @deg));
-	-ms-transform: rotate(formatstring("{0}deg", @deg));
-	transform: rotate(formatstring("{0}deg", @deg));
+	-webkit-transform: rotate(@angle);
+	-moz-transform: rotate(@angle);
+	-o-transform: rotate(@angle);
+	-ms-transform: rotate(@angle);
+	transform: rotate(@angle);
 }
 
 .translate(@move_x: 10px, @move_y: 10px)
